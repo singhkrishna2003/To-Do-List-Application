@@ -36,4 +36,33 @@ Before running the application, ensure you have the following installed:
 ## Installation and Setup
 Follow these steps to set up and run the application on your local system:
 
+### Clone the Repository
+```bash
+git clone https://github.com/singhkrishna2003/To-Do-List-Application.git
+```
+###Install Dependencies
+Install dependencies for both the client and server:
+```bash
+# For backend
+npm install
 
+# For frontend
+cd client
+npm install
+```
+###Set Up Environment Variables
+Create a .env (or it given) file in the server folder with the following variables:
+```bash
+PORT = 9000
+DB_URL = "mongodb://localhost:27017/todo"
+JWT_SECRET = "test-secret-key"
+```
+###Start the Application
+Run the backend and frontend servers:
+```bash
+# Start the backend
+npm run dev 
+
+# Start the frontend
+cd client
+npm start
