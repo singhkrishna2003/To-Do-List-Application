@@ -19,7 +19,7 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 - **Frontend**: React.js
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB
-- **Styling**: CSS (or any library like Bootstrap/Material-UI as applicable)
+- **Styling**: CSS 
 - **API Testing**: Postman (for backend API testing)
 
 ---
