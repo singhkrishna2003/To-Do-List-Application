@@ -89,7 +89,7 @@ npm start
 ### Add New Task Model
 ![Screenshot 2024-11-28 111647](https://github.com/user-attachments/assets/5d6fa6c1-94ec-4e62-a824-73680fdfd08a)
 
-### Upadte Already available Task Model
+### Updates the already available Task Model
 ![Screenshot 2024-11-28 112008](https://github.com/user-attachments/assets/923440aa-633a-4b93-af9b-777fc30dde42)
 
 ### Used Search Bar to search related tasks or particular task
