@@ -5,6 +5,8 @@ const mongoose = require('mongoose');
 const authRoutes = require('./routes/authRoutes');
 const toDoRoutes = require('./routes/ToDoRoutes');
 
+const path = require('path');
+
 // Middleware
 require('dotenv').config();
 const PORT = process.env.PORT || 9000; 
@@ -12,6 +14,9 @@ const PORT = process.env.PORT || 9000;
 
 app.use(cors());
 app.use(express.json());
+
+// Serve static files from the React app
+app.use(express.static(path.join(__dirname,'client/build')));
 
 // Import Routes
 app.use('/api',authRoutes);
