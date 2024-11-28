@@ -28,7 +28,7 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 Before running the application, ensure you have the following installed:
 - **Node.js** (v14+)
 - **npm** (v6+)
-- **MongoDB** (local or cloud-based)
+- **MongoDB** (local)
 
 ---
 
