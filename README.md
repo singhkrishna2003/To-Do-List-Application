@@ -11,7 +11,7 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 - **Delete Tasks**: Remove tasks that are no longer needed.
 - **Mark as Complete**: Track task completion status.
 - **Responsive Design**: Fully functional on both desktop and mobile devices.
-- **Serch Bar**: Search relevant tasks or particularl task.
+- **Search Bar**: Search relevant tasks or particularl task.
 
 ---
 
