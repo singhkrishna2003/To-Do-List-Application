@@ -10,7 +10,6 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 - **Update Tasks**: Edit task details or modify their status.
 - **Delete Tasks**: Remove tasks that are no longer needed.
 - **Mark as Complete**: Track task completion status.
-- **Persist Data**: All tasks are stored securely in a MongoDB database.
 - **Responsive Design**: Fully functional on both desktop and mobile devices.
 
 ---
@@ -20,7 +19,6 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB
 - **Styling**: CSS (or any library like Bootstrap/Material-UI as applicable)
-- **State Management**: React State/Context API/Redux (if applicable)
 - **API Testing**: Postman (for backend API testing)
 
 ---
@@ -40,7 +38,7 @@ Follow these steps to set up and run the application on your local system:
 ```bash
 git clone https://github.com/singhkrishna2003/To-Do-List-Application.git
 ```
-###Install Dependencies
+### Install Dependencies
 Install dependencies for both the client and server:
 ```bash
 # For backend
@@ -50,14 +48,14 @@ npm install
 cd client
 npm install
 ```
-###Set Up Environment Variables
+### Set Up Environment Variables
 Create a .env (or it given) file in the server folder with the following variables:
 ```bash
 PORT = 9000
 DB_URL = "mongodb://localhost:27017/todo"
 JWT_SECRET = "test-secret-key"
 ```
-###Start the Application
+### Start the Application
 Run the backend and frontend servers:
 ```bash
 # Start the backend
