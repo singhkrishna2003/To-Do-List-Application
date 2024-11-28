@@ -36,7 +36,4 @@ Before running the application, ensure you have the following installed:
 ## Installation and Setup
 Follow these steps to set up and run the application on your local system:
 
-### Clone the Repository
-```bash
-git clone https://github.com/singhkrishna2003/To-Do-List-Application.git
-cd client
+
