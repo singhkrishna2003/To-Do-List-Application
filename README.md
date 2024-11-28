@@ -11,6 +11,7 @@ The **TO-DO List Application** is a simple yet efficient productivity tool desig
 - **Delete Tasks**: Remove tasks that are no longer needed.
 - **Mark as Complete**: Track task completion status.
 - **Responsive Design**: Fully functional on both desktop and mobile devices.
+- **Serch Bar**: Search relevant tasks or particularl task.
 
 ---
 
@@ -64,3 +65,32 @@ npm run dev
 # Start the frontend
 cd client
 npm start
+```
+
+---
+
+## Project Overview
+
+### Landing Page
+![Screenshot 2024-11-28 110950](https://github.com/user-attachments/assets/74808788-7c89-4383-b9e8-3da2ca36e6e6)
+
+### Registration Page 
+![Screenshot 2024-11-28 111040](https://github.com/user-attachments/assets/bce250eb-6b92-4188-90eb-603edc051858)
+
+### Login Page
+![Screenshot 2024-11-28 111101](https://github.com/user-attachments/assets/a3f5f12b-fd9d-4c4f-8356-3dc71a334a9d)
+
+## My Task Page (hold Incomplete Task)
+![Screenshot 2024-11-28 111454](https://github.com/user-attachments/assets/302e7998-d2ff-4cb7-b8ba-638f8ba2ac4c)
+
+## My Task Page (hold Completed Task)
+![Screenshot 2024-11-28 111955](https://github.com/user-attachments/assets/0340183d-ee4a-49b2-8f6d-68a3b3e403b3)
+
+## Add New Task Model
+![Screenshot 2024-11-28 111647](https://github.com/user-attachments/assets/5d6fa6c1-94ec-4e62-a824-73680fdfd08a)
+
+## Upadte Already available Task Model
+![Screenshot 2024-11-28 112008](https://github.com/user-attachments/assets/923440aa-633a-4b93-af9b-777fc30dde42)
+
+## Used Search Bar to search related tasks or particular task
+![Screenshot 2024-11-28 112052](https://github.com/user-attachments/assets/abc768ca-35b3-4d85-bef2-bc2e46ce03f2)
