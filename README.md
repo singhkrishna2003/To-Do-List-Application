@@ -53,7 +53,7 @@ npm install
 Create a .env (or it given) file in the server folder with the following variables:
 ```bash
 PORT = 9000
-DB_URL = "mongodb://localhost:27017/todo"
+DB_URL = "mongodb+srv://krishnasingh192003:6IzRWg0fI82mylIH@cluster0.c3aub.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 JWT_SECRET = "test-secret-key"
 ```
 ### Start the Application
