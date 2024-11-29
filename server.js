@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 9000;
 
 app.use(cors(
     {
-        origin: ['http://deploy-mern-1whq.vercel.com'],
+        origin: ['https://todo-list-application-nine.vercel.app'],
         methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
         credentials: true  // Enable cookies in requests
     }
