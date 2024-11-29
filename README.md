@@ -94,3 +94,8 @@ npm start
 
 ### Used Search Bar to search related tasks or particular task
 ![Screenshot 2024-11-28 112052](https://github.com/user-attachments/assets/abc768ca-35b3-4d85-bef2-bc2e46ce03f2)
+
+## Link of demo video and .zip file
+- **Demo Video:** https://drive.google.com/file/d/1palevOLjwNsd-JgWMxWVCDo0OwNgnfxq/view?usp=sharing
+- **Todo-List-App.zip File:** https://drive.google.com/file/d/1-7di4INQKziR_s5MBc-6kDiAplEuY_U_/view?usp=sharing
+
