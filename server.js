@@ -12,7 +12,19 @@ require('dotenv').config();
 const PORT = process.env.PORT || 9000; 
 
 
-app.use(cors());
+app.use(cors(
+    {
+        origin: ['http://deploy-mern-1whq.vercel.com'],
+        methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
+        credentials: true  // Enable cookies in requests
+    }
+));
+
+// Home route
+app.get('/',(req,res)=>{
+    res.json("Hello, world!");
+});
+
 app.use(express.json());
 
 // Serve static files from the React app
