@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+axios.defaults.withCredentials = true;
 const SERVER_URL = 'https://todo-list-application-nine.vercel.app/api';
 
 
