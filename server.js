@@ -12,18 +12,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 9000; 
 
 
-app.use(cors(
-    {
-        origin: ['https://todo-list-application-nine.vercel.app'],
-        methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
-        credentials: true  // Enable cookies in requests
-    }
-));
-
-// Home route
-app.get('/',(req,res)=>{
-    res.json("Hello, world!");
-});
+app.use(cors());
 
 app.use(express.json());
 
