@@ -1,8 +1,7 @@
 import axios from 'axios';
 import { getUserDetails } from '../util/GetUser';
 
-axios.defaults.withCredentials = true;
-const SERVER_URL = 'https://todo-list-application-nine.vercel.app/api/todo';
+const SERVER_URL = 'http://localhost:9000/api/todo';
 
 const authHeaders = ()=>{
     let  userToken = getUserDetails()?.token;
