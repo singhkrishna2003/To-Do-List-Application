@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SERVER_URL = 'http://localhost:9000/api';
+const SERVER_URL = 'https://todo-list-application-nine.vercel.app/api';
 
 
 const registerUser = (data)=>{
